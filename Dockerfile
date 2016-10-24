@@ -8,6 +8,5 @@ RUN apt update && \
 RUN npm install -g elm elm-test elm-oracle
 
 ENTRYPOINT ["/usr/local/bin/elm"]
-CMD ["--version"]
 
 USER nobody
